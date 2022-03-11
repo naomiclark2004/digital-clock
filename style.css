@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.wrapper{
+    display: flex;
+    margin: 20% auto;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 20px 50px;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    /* padding-top: 100px; */
+    border-radius:  15px;
+    z-index: 2;
+    color: rgb(124, 152, 184);
+}
+
+.container{
+    margin: auto 0;
+    background-color: #353535;
+    height: 200px;
+    align-items: center;    
+    border-radius: 10px;
+}
+
+#myDay{
+    margin-top:25px;
+    font-size: 30px;
+    margin-bottom:0;
+    word-spacing: 10px;
+    font-weight: 600;
+}
+
+#myClock {
+    margin-top:10px;
+    font-size: 100px;
+    margin-bottom: 33px;
+}
+
+#button{
+    background-color: #2b2a2a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -1.0% 70% 0;
+    height: 15px;
+    width: 80px;
+    box-shadow: none;
+    border: none;
+    z-index: -1000;
+    position: absolute; 
+}
+
+#button:hover{
+    box-shadow: none;
+    background-color: #000000;
+}
+
+#button:active{
+    transform: translateY(2px);
+    box-shadow: none;
+    background-color: black;
+}
+
+#button2{
+    background-color: #d60000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -1.0% 66% 0;
+    height: 15px;
+    width: 40px;
+    box-shadow: none;
+    border: none;
+    z-index: -1000;
+    position: absolute; 
+}
+
+#button2:hover{
+    box-shadow: none;
+    background-color: #cc0000;
+}
+
+#button2:active{
+    transform: translateY(2px);
+    box-shadow: none;
+    background-color: #9b0000;
+}
+
+#button3{
+    background-color: #008100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -1.0% 62% 0;
+    height: 15px;
+    width: 40px;
+    box-shadow: none;
+    border: none;
+    z-index: -1000;
+    position: absolute; 
+}
+
+#button3:hover{
+    box-shadow: none;
+    background-color: #006b00;
+}
+
+#button3:active{
+    transform: translateY(2px);
+    box-shadow: none;
+    background-color: #015301;
+}
+
+#stand{
+    background-color: #adadad;
+    width: 100%;
+    height: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#foot1{
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    margin-left: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#foot2{
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    margin-left: 650px;
+    margin-top: -20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
