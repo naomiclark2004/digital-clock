@@ -49,10 +49,31 @@ function showDate() {
 
     let time = `${h}: ${mm} : ${s} ${session}`;
 
-    document.getElementById("myClock").innerHTML = time;
-    document.getElementById("myDay").innerHTML = day + ", " + m + " " + years;
+    var myDay = document.getElementById("myDay");
+    var myClock = document.getElementById("myClock");
+    
+    myDay.innerHTML = time;
+    myClock.innerHTML = day + ", " + m + " " + years;
 
     setTimeout(showDate, 1000);
 }
 
-showDate();
+// showDate();
+
+
+var start = document.getElementById("button");
+start.addEventListener("click", showDate);
+
+var green = document.getElementById("button3");
+green.addEventListener("click", function(){
+    var container = document.getElementById("container");
+    container.style.backgroundColor = "#353535";
+});
+
+var red = document.getElementById("button2");
+red.addEventListener("click", function(){
+    var days = document.getElementById("myDay");
+    var clock = document.getElementById("myClock");
+    days.style.opacity = "0";
+    clock.style.opacity = "0";
+});

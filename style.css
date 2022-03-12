@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 238, 238);
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Orbitron', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+
 .wrapper{
     display: flex;
     margin: 20% auto;
@@ -18,12 +19,12 @@ font-family: 'Work Sans', sans-serif;
     /* padding-top: 100px; */
     border-radius:  15px;
     z-index: 2;
-    color: rgb(124, 152, 184);
+    color: #7c98b8;
 }
 
-.container{
+#container{
     margin: auto 0;
-    background-color: #353535;
+    background-color: #ffffff;
     height: 200px;
     align-items: center;    
     border-radius: 10px;
@@ -35,16 +36,21 @@ font-family: 'Work Sans', sans-serif;
     margin-bottom:0;
     word-spacing: 10px;
     font-weight: 600;
+    height: 35px;
+
 }
 
 #myClock {
     margin-top:10px;
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 33px;
+    height: 117px;
 }
 
+
+
 #button{
-    background-color: #2b2a2a;
+    background-color: #008100;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: -1.0% 70% 0;
@@ -58,20 +64,20 @@ font-family: 'Work Sans', sans-serif;
 
 #button:hover{
     box-shadow: none;
-    background-color: #000000;
+    background-color: #006b00;
 }
 
 #button:active{
     transform: translateY(2px);
     box-shadow: none;
-    background-color: black;
+    background-color: #015301;
 }
 
 #button2{
     background-color: #d60000;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: -1.0% 66% 0;
+    margin: -1.0% 64% 0;
     height: 15px;
     width: 40px;
     box-shadow: none;
@@ -92,10 +98,10 @@ font-family: 'Work Sans', sans-serif;
 }
 
 #button3{
-    background-color: #008100;
+    background-color: #0000b4;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: -1.0% 62% 0;
+    margin: -1.0% 67% 0;
     height: 15px;
     width: 40px;
     box-shadow: none;
@@ -106,13 +112,13 @@ font-family: 'Work Sans', sans-serif;
 
 #button3:hover{
     box-shadow: none;
-    background-color: #006b00;
+    background-color: #0101a5;
 }
 
 #button3:active{
     transform: translateY(2px);
     box-shadow: none;
-    background-color: #015301;
+    background-color: #020292;
 }
 
 #stand{
