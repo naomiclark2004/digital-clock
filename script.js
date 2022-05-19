@@ -62,12 +62,24 @@ function showDate() {
 
 
 var start = document.getElementById("button");
-start.addEventListener("click", showDate);
+start.addEventListener("click", () =>{
+    showDate()
+    var container = document.getElementById("container");
+    container.style.backgroundColor = "white";
+    var days = document.getElementById("myDay");
+    var clock = document.getElementById("myClock");
+    days.style.opacity = "1";
+    clock.style.opacity = "1";
+});
 
 var green = document.getElementById("button3");
 green.addEventListener("click", function(){
     var container = document.getElementById("container");
     container.style.backgroundColor = "#353535";
+    var days = document.getElementById("myDay");
+    var clock = document.getElementById("myClock");
+    days.style.opacity = "1";
+    clock.style.opacity = "1";
 });
 
 var red = document.getElementById("button2");
